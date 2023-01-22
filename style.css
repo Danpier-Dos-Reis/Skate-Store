@@ -1,0 +1,137 @@
+/*
+Theme Name: Skate Store
+Author: Danpier
+Author URI: https://github.com/Danpier-Dos-Reis
+Description: Simple Wordpress Store
+License: GNU General Public Licence v2 or later
+License: http://www.gnu.org/licenses/gpl-2.0.html
+Updated: 2023-01-16 01:32:23
+*/
+* {
+  font-family: "Cambria";
+  margin: 0;
+}
+
+.SocialNetworks {
+  background-color: black;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 6px 0 6px;
+  height: 2rem;
+  flex-basis: 100%;
+  align-items: center;
+}
+.HeaderContainer div {
+  display: flex;
+}
+.HeaderContainer div a {
+  color: #D89E00;
+  font-family: "Cambria";
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+.HeaderContainer div a:hover {
+  color: white;
+  transition: 0.3s;
+}
+.HeaderContainer div img {
+  margin-left: 3px;
+}
+
+.Logo_PrincipalMenu {
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.Logo_PrincipalMenu ul {
+  list-style: none;
+  display: flex;
+}
+.Logo_PrincipalMenu ul li {
+  margin-left: 8px;
+}
+.Logo_PrincipalMenu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.Logo_PrincipalMenu ul li:hover {
+  background-color: black;
+  border-radius: 3px;
+}
+.Logo_PrincipalMenu ul li:hover a {
+  color: #D89E00;
+  transition: 0.5s;
+}
+
+.CategoriesLinkMenu {
+  background-color: #FFAA43;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.CategoriesLinkMenu .Categories {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 6rem 0 1px;
+  height: 2rem;
+  align-items: center;
+}
+.CategoriesLinkMenu ul {
+  display: flex;
+  list-style: none;
+}
+.CategoriesLinkMenu ul li {
+  margin-left: 8px;
+}
+.CategoriesLinkMenu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.CategoriesLinkMenu ul li a:hover {
+  text-decoration: underline;
+}
+
+.Search {
+  background-color: white;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.Search .SearchContainer {
+  margin: 0 1rem 0 1rem;
+  height: 2rem;
+  width: 95%;
+  border: 3px groove black;
+  border-radius: 3rem;
+}
+.Search .SearchContainer .Elements {
+  margin-top: 5px;
+  margin-left: 1rem;
+}
+.Search .SearchContainer .Elements input[type=text] {
+  width: 89%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
